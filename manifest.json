@@ -1,44 +1,44 @@
 {
 	"name": "Rosi Repo",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"scrapers": [
 		{
 			"id": "playmax",
 			"name": "Playmax",
-			"description": "Playmax.mn - anime & movies (MN sub/dub)",
+			"description": "Playmax.mn - anime & movies",
 			"version": "1.2.0",
 			"author": "Rosi",
 			"supportedTypes": ["movie", "tv"],
 			"filename": "providers/playmax.js",
 			"enabled": true,
 			"formats": ["m3u8", "mp4"],
-			"logo": "https://play-lh.googleusercontent.com/fbnlLpGXNLhkKpOVbsmfBvnSSRsnmAuDJB9R_YzpCsRqzSdCne7jEaKAX5bmnk_i54FF5T6c1OdHYWYiczwjvQ=w480-h960-rw",
+			"logo": "https://raw.githubusercontent.com/donquixoterosi/nuvio-plugin/refs/heads/main/assets/playmax.png",
 			"contentLanguage": ["mn"]
 		},
 		{
 			"id": "goplus",
 			"name": "GoPlus",
 			"description": "GoPlus.mn - movies & series",
-			"version": "1.1.0",
+			"version": "1.2.0",
 			"author": "Rosi",
 			"supportedTypes": ["movie", "tv"],
 			"filename": "providers/goplus.js",
 			"enabled": true,
 			"formats": ["m3u8"],
-			"logo": "https://www.goplus.mn/webclient/img/favicon/web-icon-512x512.png",
+			"logo": "https://raw.githubusercontent.com/donquixoterosi/nuvio-plugin/refs/heads/main/assets/goplus.png",
 			"contentLanguage": ["mn"]
 		},
 		{
 			"id": "wemax",
 			"name": "Wemax",
-			"description": "Wemax.tv - K-dramas, series & movies (MN sub/dub)",
+			"description": "Wemax.tv - K-dramas & series",
 			"version": "1.1.0",
 			"author": "Rosi",
 			"supportedTypes": ["tv"],
 			"filename": "providers/wemax.js",
 			"enabled": true,
 			"formats": ["mp4", "m3u8"],
-			"logo": "https://wemax.tv/assets/max/images/wemax-logo-white.png",
+			"logo": "https://raw.githubusercontent.com/donquixoterosi/nuvio-plugin/refs/heads/main/assets/wemax.png",
 			"contentLanguage": ["mn"]
 		}
 	]
