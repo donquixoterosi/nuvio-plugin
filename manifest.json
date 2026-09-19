@@ -18,7 +18,7 @@
 		{
 			"id": "goplus",
 			"name": "GoPlus",
-			"description": "GoPlus.mn - movies & series (720p HLS)",
+			"description": "GoPlus.mn - movies & series",
 			"version": "1.1.0",
 			"author": "Rosi",
 			"supportedTypes": ["movie", "tv"],
@@ -34,7 +34,7 @@
 			"description": "Wemax.tv - K-dramas, series & movies (MN sub/dub)",
 			"version": "1.1.0",
 			"author": "Rosi",
-			"supportedTypes": ["movie", "tv"],
+			"supportedTypes": ["tv"],
 			"filename": "providers/wemax.js",
 			"enabled": true,
 			"formats": ["mp4", "m3u8"],
